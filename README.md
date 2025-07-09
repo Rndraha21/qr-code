@@ -1,6 +1,6 @@
 # 🔳 QR Code Generator
 
-A modern, stylish QR Code Generator built with **React**, **Tailwind CSS**, and **Typewriter animation**.  
+A modern, stylish QR Code Generator built with **React-Vite**, **Tailwind CSS**, and **Typewriter animation**.  
 Easily generate, copy, and download QR Codes for any text or URL.
 
 ![Preview](./public/logo.png) <!-- Optional: tambahkan screenshot UI -->
@@ -36,8 +36,10 @@ Easily generate, copy, and download QR Codes for any text or URL.
 git clone https://github.com/your-username/qr-code-generator.git
 cd qr-code-generator
 
-Install dependencies
+- Install dependencies
 npm install
 
-Start the app
+- Start the app
 npm run dev
+```
+### 2. 
