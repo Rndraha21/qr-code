@@ -36,10 +36,8 @@ Easily generate, copy, and download QR Codes for any text or URL.
 git clone https://github.com/your-username/qr-code-generator.git
 cd qr-code-generator
 
-2. Install dependencies
-```bash
+Install dependencies
 npm install
 
-3. Start the app
-```bash
+Start the app
 npm run dev
