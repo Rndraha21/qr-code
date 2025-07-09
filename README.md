@@ -1,12 +1,45 @@
-# React + Vite
+# 🔳 QR Code Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, stylish QR Code Generator built with **React**, **Tailwind CSS**, and **Typewriter animation**.  
+Easily generate, copy, and download QR Codes for any text or URL.
 
-Currently, two official plugins are available:
+![Preview](./public/logo.png) <!-- Optional: tambahkan screenshot UI -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎨 Dark mode themed with Tailwind CSS
+- 🎹 Typewriter animated heading using `typewriter-effect`
+- 🧠 Real-time QR code generation with `qrcode.react`
+- 📥 Download QR code as `.png`
+- 📋 Copy input text to clipboard
+- 🧽 Clear/reset form in one click
+- ⭐️ Beautiful floating star background ready (via `StarBackground` component)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- [`qrcode.react`](https://www.npmjs.com/package/qrcode.react)
+- [`react-icons`](https://react-icons.github.io/react-icons/)
+- [`typewriter-effect`](https://www.npmjs.com/package/typewriter-effect)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/qr-code-generator.git
+cd qr-code-generator
+
+2. Install dependencies
+```bash
+npm install
+
+3. Start the app
+```bash
+npm run dev
