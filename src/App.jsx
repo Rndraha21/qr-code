@@ -7,7 +7,7 @@ function App() {
     <div>
       <StarBackground />
       <div className="flex flex-col">
-        <main className="flex-grow">
+        <main>
           <QRCodeGenerator />
           <Footer />
         </main>
