@@ -22,6 +22,7 @@ Easily generate, copy, and download QR Codes for any text or URL.
 ## 🛠️ Tech Stack
 
 - **React**
+- **Vite**
 - **Tailwind CSS**
 - [`qrcode.react`](https://www.npmjs.com/package/qrcode.react)
 - [`react-icons`](https://react-icons.github.io/react-icons/)
