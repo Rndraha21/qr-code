@@ -3,7 +3,7 @@ import { FiGithub, FiInstagram } from "react-icons/fi";
 
 export const Footer = () => {
   return (
-    <footer className="py-8 px-4 absolute w-full bg-card border-t border-border pt-4 flex flex-row justify-between gap-2 items-center bottom-0">
+    <footer className="hidden py-8 px-4 absolute w-full bg-card border-t border-border pt-4 lg:flex flex-row justify-between gap-2 items-center bottom-0">
       <p className="text-sm text-muted-foreground">
         &copy; {new Date().getFullYear()} Robin Ndraha All rights reserved.
       </p>

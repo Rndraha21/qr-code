@@ -41,8 +41,8 @@ function QRCodeGenerator() {
   };
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center">
-      <div className="w-full relative max-w-md p-8 bg-card border rounded-3xl shadow-lg shadow-black/40 hover:shadow-2xl flex flex-col items-center hover:scale-105 transition-all duration-300">
+    <div className="min-h-screen w-full flex flex-col items-center justify-center p-4">
+      <div className="w-full relative max-w-md p-8 bg-card border rounded-3xl shadow-lg shadow-black/40 hover:shadow-2xl flex flex-col items-center">
         <div className="flex flex-col items-center mb-6">
           <div className="w-18 h-18 flex items-center justify-center border rounded-full bg-secondary text-secondary-foreground mb-2">
             <BsQrCode className="text-white w-10 h-10" />
@@ -63,7 +63,7 @@ function QRCodeGenerator() {
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
           placeholder="Type text or URL"
-          className="w-full mb-5 px-4 py-3 bg-secondary text-primary-foreground border rounded-lg outline-none resize-none  placeholder-gray-400 shadow-sm transition duration-400"
+          className="w-full mb-5 px-4 py-3 bg-secondary text-primary-foreground border rounded-lg outline-none resize-none placeholder-gray-400 shadow-sm transition duration-400"
         />
         <div className="mb-5 flex items-center justify-center w-full">
           <div className="bg-secondary border rounded-xl shadow-sm flex items-center justify-center p-4 min-h-[200px] w-full">
@@ -76,11 +76,11 @@ function QRCodeGenerator() {
                 className="rounded"
               />
             ) : (
-              <BsQrCode className="w-16 h16 mb-2 text-gray-300" />
+              <BsQrCode className="w-16 h-16 mb-2 text-gray-300" />
             )}
           </div>
         </div>
-        <div className="flex sm:flex-row flex-col w-full gap-3 mb-2">
+        <div className="flex flex-col sm:flex-row w-full gap-3 mb-2">
           <button
             onClick={handleDownload}
             disabled={!inputText}
@@ -116,4 +116,5 @@ function QRCodeGenerator() {
     </div>
   );
 }
+
 export default QRCodeGenerator;
