@@ -33,7 +33,7 @@ Easily generate, copy, and download QR Codes for any text or URL.
 
 ### Clone the repo
 ```bash
-git clone https://github.com/your-username/qr-code-generator.git
+git clone https://github.com/Rndraha21/qr-code.git
 cd qr-code-generator
 
 - Install dependencies
