@@ -71,8 +71,8 @@ function QRCodeGenerator() {
               <QRCodeCanvas
                 value={inputText}
                 size={120}
-                fgColor="rgba(225,225,225,1)"
-                bgColor="rgba(0,0,0,0)"
+                fgColor="#000"
+                bgColor="#FFF"
                 className="rounded"
               />
             ) : (
